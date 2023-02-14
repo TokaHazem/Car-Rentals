@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+header{
+    width: 1500px;
+    height: 750px ;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("../Images/header-bg.jpg") no-repeat  center;
+    
+    position: relative;
+}
+#sec1{ 
+    background:url("../Images/logo.png") no-repeat 100px 15px  rgba(0, 0, 0, 0.8);
+    width: 1500px;
+    height: 750px ;
+}
+header nav {
+    float: right;
+    padding: 26px 100px;
+}
+header a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right:25px;
+    transition: all 1s ease;
+}
+header a:hover{
+    box-shadow: 5px 5px 10px rgb(255, 0, 191), -10px -10px 20px rgb(1, 82, 102);
+    background-color: rgb(1, 1, 51);
+    padding: 5px;
+}
+.ar1{
+    position: absolute;
+    top: 220px;
+    left:117px;
+    width: 707px;
+}
+.ar1 p, .ar1 h1{
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ar1 h1{
+    font-size: 54px;
+}
+.ar1 p{
+    
+    font-size: 20px; 
+}
+.form{
+    width: 550px;
+    height: 620px;
+    border: thin solid  rgb(14,23,38);
+    position: absolute;
+    top:65px;
+    right: 102px;
+    background-color: rgba(20, 33, 54, 0.5);
+}
+.form h3{
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: 50px 50px 30px;
+    
+
+}
+.form table{
+    margin: 0 auto;
+ }
+.form input{
+    height:50px ;
+    border-radius: 10px;
+    margin: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-left:5px;
+}
+.tdf{
+    width:450px; 
+}
+.tdm{
+    width:220px;   
+}
+#sec2{
+    width: 1500px;
+    height: 750px ;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 122px;
+    padding-right: 122px;
+}
+.hh{
+   
+    font-size: 55px;
+    text-align: center;
+}
+.pp{
+    text-align: center;
+    font-size: 20px;
+    color:rgb(182, 182, 184);
+} 
+#sec2 div{
+    display: inline-block;
+    width:350px;
+    height:210px ;
+    background-color:rgb(237, 237, 247); 
+    border-radius: 10px;
+    padding: 55px 35px;
+    margin:30px;
+}
+#sec2 div h3{display: inline;}
+#sec3{
+    width: 1500px;
+    height: 550px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sec3 h1{
+    font-size: 50px;
+}
+#sec4{
+    width: 1500px;
+    height: 700px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sec4 div{
+    display: inline-block;
+    margin: 5px;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(191, 191, 191);
+}
+#sec4 div:hover{ background-color:rgb(249,183,0);}
+#sec5{
+    width: 1500px;
+    height: 410px ;
+    margin-left: auto;
+    margin-right: auto;
+    background : url("../Images/callaction-bg.jpg") no-repeat center;
+}
+#sec5 h1 ,#sec5 p ,#sec5 form ,#headblog,#parblog{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+#sec5 h1{
+    font-size:50px;
+    padding-top: 100px;
+    color:#ffffff;
+}
+#sec5 p{
+   margin-top: -30px;
+    font-size: 20px;
+    color:#ffffff;
+}
+#headblog{
+    font-size:50px;
+}
+#parblog{
+    margin-top: -30px;
+    font-size: 20px;
+}
+footer{
+    width: 1500px;
+    height: 420px ;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    background-color: rgb(4, 9, 29);
+}
+footer table{
+    margin-left: auto;
+    margin-right: auto;
+   
+    width: 1100px;
+    height: 200px;
+}
+footer th ,footer td {
+    color:#fff;
+}
+footer th{
+    text-align: left;
+    font-size:20px
+}
+footer td{
+    color:rgb(191, 191, 191);
+}
+footer td a{
+    text-decoration: none;
+    color:#fff;
+}
